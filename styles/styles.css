@@ -1,0 +1,59 @@
+body{
+	color: #FFF;
+	font-family: Tahoma;
+}
+header h1 {
+	background-color: #E32E2F;
+	text-align: center;
+	font-size: 3em;
+	padding: 1% 0;
+	margin: 0;
+}
+
+nav {
+	width: 20%;
+	height: 100%;
+	background-color: #E0DD2B;
+	float: left;
+}
+
+nav ul {
+	padding: 0;
+}
+
+nav ul li {
+	text-decoration: none;
+	list-style: none;
+	padding: 10% 0;
+	text-align: center;
+	font-size: 2em;
+	cursor: pointer;
+	border-bottom: 2px solid #FFF;
+}
+
+nav ul li:hover {
+	background-color: #cbc938;
+}
+
+section {
+	width: 80%;
+	float: left;
+
+}
+
+section .productImg img{
+	max-width: 100% !important;
+	max-height: 100% !important;
+	display: block;
+}
+
+section .productPrice {
+	width: 100%;
+	background-color: #64BE2F;
+	text-align: center;
+}
+
+section .productPrice span{
+	font-size: 3em;
+	padding: 2% 0;
+}
